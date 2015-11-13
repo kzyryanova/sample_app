@@ -44,7 +44,11 @@ group :production do
   gem 'pg', '>= 0.12.2'
 end
 
+gem 'annotate', '>= 2.5.0', group: :development
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'bootstrap-sass'
+
+gem 'bcrypt-ruby', '>= 3.0.1'
